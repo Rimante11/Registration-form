@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form validation</title>
+</head>
+<body>
+  <form id="form">
+    <h1>Registration</h1>
+    <label for="username">Username</label><br>
+    <input type="text" name="username" id="username" min="5" ><br>
+    <span class="errors">Please enter your username!</span><br>
+
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password" min="5"><br>
+    <span class="errors">Please enter a password!</span><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email"><br>
+    <span class="errors">Please enter your email!</span><br>
+
+    <label for="phone">Phone</label><br>
+    <input type="tel" name="phone" id="phone"><br>
+    <span class="errors">Please enter your phone!</span><br>
+
+    <input type="checkbox" id="accept">Accept terms <br>
+    <span class="errors">You must accept terms!</span><br>
+    
+    <br>
+    <button id="submit">Submit</button>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
