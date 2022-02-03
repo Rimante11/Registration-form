@@ -10,39 +10,36 @@
 </head>
 
 <body>
-  <form id="registerform" class="registerform" novalidate>      
-        <label for="servicename">Tjänstens namn</label>
+  <form id="registerform" class="registerform" novalidate>  
+    <h2>Registration</h2>
+    
+        <label for="servicename">Username</label>
+        <br>
         <input type="text" id="servicename" name="servicename" minlength="5" required>
-        <span class="error" id="servicenameerror">Du måste fylla i ett namn som är minst 5 tecken</span>
+        <span class="error" id="servicenameerror">Username should be at least 5 character</span>
+        <br>      
       
-      
-        <label for="description">Beskrivning</label>
+        <label for="description">Password</label>
+        <br>
         <input type="text" id="description" name="description" maxlength="200" required>
-        <span class="error" id="descriptionerror">Du måste fylla i en beskrivning på max 200 tecken</span>
-      
-      
-        <label for="price">Kostnad</label>
-        <input type="number" id="price" name="price" min="200" required>
-        <span class="error" id="priceerror">Du måste fylla i en kostnad på minst 200:-</span>
-      
+        <span class="error" id="descriptionerror">You need to add password</span>
+        <br>
       
         <label for="email">E-mail</label>
+        <br>
         <input type="email" id="email" name="email" required>
-        <span class="error" id="emailerror">Du måste fylla i din e-post</span>
-      
+        <span class="error" id="emailerror">You need to add your email</span>
+        <br>
     
         <label for="phone">Telefonnr</label>
+        <br>
         <input type="tel" id="phone" name="phone">
+        <br>
       
-      
-        <label for="url">URL</label>
-        <input type="url" id="url" name="url">
-      
-      
-        <label for="accept">Accepterar Villkoren</label>
         <input type="checkbox" id="accept" name="accept" required>
-        <span class="error" id="accepterror">Du måste acceptera villkoren</span>
-      
+        <label for="accept">Accepterar Villkoren</label>
+        <span class="error" id="accepterror">You must accept terms</span>
+        <br>
       
         <button>Submit</button>
       
