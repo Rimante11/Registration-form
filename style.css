@@ -8,6 +8,7 @@ body {
   width: 300px;
   text-align: center;
   margin-top: 50px;
+  margin-left: 20px;
   background: rosybrown;
   /*padding: 15px;*/
   border: 2px solid rgb(240, 46, 170, 0.4);
