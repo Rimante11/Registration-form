@@ -1,4 +1,33 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerform {
+  width: 300px;
+}
+
+.registerform li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.registerform li label {
+  display: block;
+}
+/*
+.registerform li input:not([type='checkbox']) {
+  width: 100%;
+}
+*/
+
+.error {
+  display: block;
+  color: red;
+}
+
+
+
+/*body {
   background: rgb(209, 192, 192);
  
 }
@@ -8,6 +37,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   color: orange;
   -webkit-text-stroke: 0.5px white; /*border for text letters*/
+  /*
 }
 input:focus {
   background: rgb(228, 181, 216);
@@ -23,10 +53,11 @@ input{
   text-align: center;
   background: rosybrown;
   /*padding: 15px;*/
+  /*
   border: 2px solid rgb(240, 46, 170, 0.4);
   border-radius: 5px;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-  /*box-shadow: rgb(228, 219, 227) 3px 3px 6px 0px inset, rgb(207, 174, 174) -3px -3px 6px 1px inset;*/
+  /*box-shadow: rgb(228, 219, 227) 3px 3px 6px 0px inset, rgb(207, 174, 174) -3px -3px 6px 1px inset;*//*
 
 }
 
@@ -48,3 +79,4 @@ button:hover{
 .errors {
   color: red;
 }
+*/
